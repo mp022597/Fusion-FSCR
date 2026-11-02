@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/artifact-index.schema.json",
+  "project_id": "product-management-implementation",
+  "updated_at": "2026-11-02T16:06:41Z",
+  "artifacts": [
+    {
+      "artifact_id": "objective-product-management-implementation-v1",
+      "name": "Product Management Implementation Objective",
+      "artifact_type": "objective",
+      "skill_id": "core.project-mgmt.project-workspace-initializer",
+      "location": "project/product-management-implementation/artifacts/router/project-objective-classifier/current/objective.json",
+      "version": "1.0.0",
+      "status": "draft",
+      "change_type": "initial",
+      "supersedes": null,
+      "checksum": null,
+      "created_at": "2026-11-02T16:06:41Z",
+      "updated_at": "2026-11-02T16:06:41Z"
+    },
+    {
+      "artifact_id": "skill-run-project-workspace-initializer-20261102T160641Z-project-workspace-initializer",
+      "name": "Project Workspace Initializer Run",
+      "artifact_type": "skill_run",
+      "skill_id": "core.project-mgmt.project-workspace-initializer",
+      "location": "project/product-management-implementation/state/runs/20261102T160641Z-project-workspace-initializer.json",
+      "version": "1.0.0",
+      "status": "draft",
+      "change_type": "initial",
+      "supersedes": null,
+      "checksum": null,
+      "created_at": "2026-11-02T16:06:41Z",
+      "updated_at": "2026-11-02T16:06:41Z"
+    },
+    {
+      "artifact_id": "identified-task-mapping-product-management-implementation-v1",
+      "name": "Identified Task Mapping",
+      "artifact_type": "task_mapping",
+      "skill_id": "core.project-mgmt.project-workspace-initializer",
+      "location": "project/product-management-implementation/artifacts/shared/runbook/current/identified-task-mapping.json",
+      "version": "1.0.0",
+      "status": "draft",
+      "change_type": "initial",
+      "supersedes": null,
+      "checksum": "53f00ca65144f6aeebe984d4dcefb7026f3e2649004711491b99479d969c623d",
+      "created_at": "2026-11-02T16:06:41Z",
+      "updated_at": "2026-11-02T16:06:41Z"
+    }
+  ]
+}

@@ -1,0 +1,2664 @@
+{
+ "setup_task_sequence": [
+  {
+   "sequence": 1,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_INITIAL_USER",
+   "task_code": "ORA_ASE_MANAGE_SECURITY_PREFERENCES",
+   "task_list_item": "ORA_SETUP_SECURITY_SYNC_PROCESS_AND_PREFERENCESORA_ASE_MANAGE_SECURITY_PREFERENCES",
+   "task_name": "Manage Applications Security Preferences",
+   "catalog_display_sequence": "1",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 2,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_INITIAL_USER",
+   "task_code": "ORA_ASE_IMPORT_USERS_AND_ROLES",
+   "task_list_item": "ORA_SETUP_SECURITY_SYNC_PROCESS_AND_PREFERENCESORA_ASE_IMPORT_USERS_AND_ROLES",
+   "task_name": "Import Users and Roles into Application Security",
+   "catalog_display_sequence": "2",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 3,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_INITIAL_USER",
+   "task_code": "ORA_ASE_IMPORT_USER_LOGIN_HISTORY",
+   "task_list_item": "ORA_SETUP_SECURITY_SYNC_PROCESS_AND_PREFERENCESORA_ASE_IMPORT_USER_LOGIN_HISTORY",
+   "task_name": "Import User Login History",
+   "catalog_display_sequence": "3",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 4,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_INITIAL_USER",
+   "task_code": "PER_USER_AND_ROLES_SYNCHRONIZE_DETAILS",
+   "task_list_item": "Define Synchronization of Users and Roles from LDAPPER_USER_AND_ROLES_SYNCHRONIZE_DETAILS",
+   "task_name": "Run User and Roles Synchronization Process",
+   "catalog_display_sequence": "4",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 5,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_INITIAL_USER",
+   "task_code": "FND_CREATE_IMPLEMENTATION_USERS",
+   "task_list_item": "ORA_EGP_IMPLEMENATION_USERSFND_CREATE_IMPLEMENTATION_USERS",
+   "task_name": "Create Implementation Users",
+   "catalog_display_sequence": "5",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 6,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_INITIAL_USER",
+   "task_code": "FND_CREATE_DATA_ROLE_FOR_IMPLEMENTATION_USERS",
+   "task_list_item": "ORA_EGP_IMPLEMENATION_USERSFND_CREATE_DATA_ROLE_FOR_IMPLEMENTATION_USERS",
+   "task_name": "Create Data Role for Implementation Users",
+   "catalog_display_sequence": "6",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 7,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_ENTERPRISE_PROFILE",
+   "task_code": "HZ_MANAGE_GEOGRAPHIES",
+   "task_list_item": "ORA_EGP_GEOGRAPHIESHZ_MANAGE_GEOGRAPHIES",
+   "task_name": "Manage Geographies",
+   "catalog_display_sequence": "7",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 8,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_ENTERPRISE_PROFILE",
+   "task_code": "HZ_LOAD_GEOGRAPHY_INTERFACE_DATA",
+   "task_list_item": "ORA_EGP_GEOGRAPHIESHZ_LOAD_GEOGRAPHY_INTERFACE_DATA",
+   "task_name": "Load Geography Interface Data",
+   "catalog_display_sequence": "11",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 9,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_ENTERPRISE_PROFILE",
+   "task_code": "HZ_RUN_GEOGRAPHY_LOADER",
+   "task_list_item": "ORA_EGP_GEOGRAPHIESHZ_RUN_GEOGRAPHY_LOADER",
+   "task_name": "Run Geography Loader",
+   "catalog_display_sequence": "12",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 10,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_ENTERPRISE_PROFILE",
+   "task_code": "HZ_RUN_MAINTAIN_GEOGRAPHY_NAME_REFERENCING",
+   "task_list_item": "ORA_EGP_GEOGRAPHIESHZ_RUN_MAINTAIN_GEOGRAPHY_NAME_REFERENCING",
+   "task_name": "Run Maintain Geography Name Referencing",
+   "catalog_display_sequence": "13",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 11,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_ENTERPRISE_PROFILE",
+   "task_code": "ORA_HZ_RUN_GEOCODE_LOADER",
+   "task_list_item": "ORA_EGP_GEOGRAPHIESORA_HZ_RUN_GEOCODE_LOADER",
+   "task_name": "Run Geocode Generation",
+   "catalog_display_sequence": "14",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 12,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_ENTERPRISE_PROFILE",
+   "task_code": "HZ_MANAGE_GEOGRAPHY_LOOKUPS",
+   "task_list_item": "ORA_EGP_GEOGRAPHIESHZ_MANAGE_GEOGRAPHY_LOOKUPS",
+   "task_name": "Manage Geography Lookups",
+   "catalog_display_sequence": "15",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 13,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_ENTERPRISE_PROFILE",
+   "task_code": "HRW_ESTABLISH_ENTERPRISE_STRUCTURES",
+   "task_list_item": "HRW_DEFINE_INITIAL_CONFIGURATIONHRW_ESTABLISH_ENTERPRISE_STRUCTURES",
+   "task_name": "Establish Enterprise Structures",
+   "catalog_display_sequence": "16",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 14,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_ENTERPRISE_PROFILE",
+   "task_code": "PER_MANAGE_ENTERPRISE_HCM_INFORMATION",
+   "task_list_item": "EGP_DEFINE_ENTERPRISEPER_MANAGE_ENTERPRISE_HCM_INFORMATION",
+   "task_name": "Manage Enterprise HCM Information",
+   "catalog_display_sequence": "17",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 15,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_ENTERPRISE_PROFILE",
+   "task_code": "PER_MANAGE_LOCATIONS",
+   "task_list_item": "EGP_DEFINE_ENTERPRISE_STRUCTURESPER_MANAGE_LOCATIONS",
+   "task_name": "Manage Locations",
+   "catalog_display_sequence": "18",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 16,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "XLE_MANAGE_LEGAL_ENTITY",
+   "task_list_item": "EGP_DEFINE_LEGAL_ENTITIESXLE_MANAGE_LEGAL_ENTITY",
+   "task_name": "Manage Legal Entity",
+   "catalog_display_sequence": "19",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 17,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SETS",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SETS",
+   "task_name": "Manage Chart of Accounts Value Sets",
+   "catalog_display_sequence": "20",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 18,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_MANAGE_CHARTS_OF_ACCOUNTS",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHARTS_OF_ACCOUNTS",
+   "task_name": "Manage Chart of Accounts Structures",
+   "catalog_display_sequence": "21",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 19,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES",
+   "task_name": "Manage Chart of Accounts Structure Instances",
+   "catalog_display_sequence": "22",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 20,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES",
+   "task_name": "Manage Chart of Accounts Value Set Values",
+   "catalog_display_sequence": "23",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 21,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_MANAGE_ACCOUNTING_CALENDARS",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_ACCOUNTING_CALENDARS",
+   "task_name": "Manage Accounting Calendars",
+   "catalog_display_sequence": "24",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 22,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_MANAGE_PRIMARY_LEDGERS",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_PRIMARY_LEDGERS",
+   "task_name": "Manage Primary Ledgers",
+   "catalog_display_sequence": "25",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 23,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_ASSIGN_LEGAL_ENTITIES",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_ASSIGN_LEGAL_ENTITIES",
+   "task_name": "Assign Legal Entities",
+   "catalog_display_sequence": "26",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 24,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_SPECIFY_LEDGER_OPTIONS",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_SPECIFY_LEDGER_OPTIONS",
+   "task_name": "Specify Ledger Options",
+   "catalog_display_sequence": "27",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 25,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEGAL_ENTITIES",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEGAL_ENTITIES",
+   "task_name": "Assign Balancing Segment Values to Legal Entities",
+   "catalog_display_sequence": "28",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 26,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_MANAGE_REPORTING_CURRENCIES",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_REPORTING_CURRENCIES",
+   "task_name": "Manage Reporting Currencies",
+   "catalog_display_sequence": "29",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 27,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEDGER",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEDGER",
+   "task_name": "Assign Balancing Segment Values to Ledger",
+   "catalog_display_sequence": "30",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 28,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_VIEW_ACCOUNTING_CONFIGURATION_SUMMARY",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_VIEW_ACCOUNTING_CONFIGURATION_SUMMARY",
+   "task_name": "View Accounting Configuration Summary",
+   "catalog_display_sequence": "31",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 29,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "GL_REVIEW_AND_SUBMIT_ACCOUNTING_CONFIGURATION",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_REVIEW_AND_SUBMIT_ACCOUNTING_CONFIGURATION",
+   "task_name": "Review and Submit Accounting Configuration",
+   "catalog_display_sequence": "32",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 30,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "FUN_MANAGE_BUSINESS_UNIT",
+   "task_list_item": "EGP_DEFINE_BUSINESS_UNITSFUN_MANAGE_BUSINESS_UNIT",
+   "task_name": "Manage Business Unit",
+   "catalog_display_sequence": "33",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 31,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "FUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION",
+   "task_list_item": "EGP_DEFINE_BUSINESS_UNITSFUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION",
+   "task_name": "Assign Business Unit Business Function",
+   "catalog_display_sequence": "34",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 32,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT",
+   "task_list_item": "EGP_DEFINE_BUSINESS_UNITSFUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT",
+   "task_name": "Manage Business Unit Set Assignment",
+   "catalog_display_sequence": "35",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 33,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "PER_MANAGE_HCM_ROLE_PROVISIONING_RULES",
+   "task_list_item": "INV_DEFINE_HCM_DATA_SECURITYPER_MANAGE_HCM_ROLE_PROVISIONING_RULES",
+   "task_name": "Manage HCM Role Provisioning Rules",
+   "catalog_display_sequence": "36",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 34,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "HRC_IMPORT_WORKER_USERS",
+   "task_list_item": "INV_DEFINE_HCM_DATA_SECURITYHRC_IMPORT_WORKER_USERS",
+   "task_name": "Import Worker Users",
+   "catalog_display_sequence": "37",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 35,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "PER_MANAGE_USERS",
+   "task_list_item": "INV_DEFINE_HCM_DATA_SECURITYPER_MANAGE_USERS",
+   "task_name": "Manage Users",
+   "catalog_display_sequence": "38",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 36,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "ORA_FUN_MANAGE_DATA_ACCESS_FOR_USERS",
+   "task_list_item": "INV_DEFINE_HCM_DATA_SECURITYORA_FUN_MANAGE_DATA_ACCESS_FOR_USERS",
+   "task_name": "Manage Data Access for Users",
+   "catalog_display_sequence": "39",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 37,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "ASXS_MANAGE_JOB_ROLES",
+   "task_list_item": "ORA_EGP_DEFINE_SECURITY_FOR_PRODUCT_MGTASXS_MANAGE_JOB_ROLES",
+   "task_name": "Manage Job Roles",
+   "catalog_display_sequence": "40",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 38,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "ASXS_MANAGE_DUTIES",
+   "task_list_item": "ORA_EGP_DEFINE_SECURITY_FOR_PRODUCT_MGTASXS_MANAGE_DUTIES",
+   "task_name": "Manage Duties",
+   "catalog_display_sequence": "41",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 39,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_USERS_AND_SECURITY",
+   "task_code": "ASXS_MANAGE_DATA_SECURITY_POLICIES",
+   "task_list_item": "ORA_EGP_DEFINE_SECURITY_FOR_PRODUCT_MGT:ORA_EGP_DATA_SECURITYASXS_MANAGE_DATA_SECURITY_POLICIES",
+   "task_name": "Manage Data Security Policies",
+   "catalog_display_sequence": "42",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 40,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "ORA_ATK_CUSTOM_ESS_FSCM",
+   "task_list_item": "300100021813814",
+   "task_name": "Manage Enterprise Scheduler Job Definitions and Job Sets for Financial, Supply Chain Management, and Related Applications",
+   "catalog_display_sequence": "43",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 41,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "ATK_CONFIGURE_HELP_SETTINGS",
+   "task_list_item": "ORA_EGP_HELP_CONFIGATK_CONFIGURE_HELP_SETTINGS",
+   "task_name": "Set Help Options",
+   "catalog_display_sequence": "44",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 42,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "ATK_ASSIGN_FUSION_HELP_TEXT_ADMINISTRATION_DUTY",
+   "task_list_item": "ORA_EGP_HELP_CONFIGATK_ASSIGN_FUSION_HELP_TEXT_ADMINISTRATION_DUTY",
+   "task_name": "Assign Help Text Administration Duty",
+   "catalog_display_sequence": "45",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 43,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "ATK_MANAGE_HELP_SECURITY_GROUPS",
+   "task_list_item": "ORA_EGP_HELP_CONFIGATK_MANAGE_HELP_SECURITY_GROUPS",
+   "task_name": "Manage Help Security Groups",
+   "catalog_display_sequence": "46",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 44,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_TAXONOMY_HIERARCHY",
+   "task_list_item": "FND_DEFINE_APPLICATION_TAXONOMYFND_MANAGE_TAXONOMY_HIERARCHY",
+   "task_name": "Manage Taxonomy Hierarchy",
+   "catalog_display_sequence": "47",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 45,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_REFERENCE_DATA_SETS",
+   "task_list_item": "ORA_EGP_REFERENCE_DATA_SHAREFND_MANAGE_REFERENCE_DATA_SETS",
+   "task_name": "Manage Reference Data Sets",
+   "catalog_display_sequence": "48",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 46,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_CURRENCIES",
+   "task_list_item": "FND_DEFINE_ISO_REFERENCE_DATAFND_MANAGE_CURRENCIES",
+   "task_name": "Manage Currencies",
+   "catalog_display_sequence": "49",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 47,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_ISO_LANGUAGES",
+   "task_list_item": "FND_DEFINE_ISO_REFERENCE_DATAFND_MANAGE_ISO_LANGUAGES",
+   "task_name": "Manage ISO Languages",
+   "catalog_display_sequence": "50",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 48,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_TERRITORIES",
+   "task_list_item": "FND_DEFINE_ISO_REFERENCE_DATAFND_MANAGE_TERRITORIES",
+   "task_name": "Manage Territories",
+   "catalog_display_sequence": "51",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 49,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_LANGUAGES",
+   "task_list_item": "FND_DEFINE_ISO_REFERENCE_DATAFND_MANAGE_LANGUAGES",
+   "task_name": "Manage Languages",
+   "catalog_display_sequence": "52",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 50,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_INDUSTRIES",
+   "task_list_item": "FND_DEFINE_ISO_REFERENCE_DATAFND_MANAGE_INDUSTRIES",
+   "task_name": "Manage Industries",
+   "catalog_display_sequence": "53",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 51,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_NATURAL_LANGUAGES",
+   "task_list_item": "FND_DEFINE_ISO_REFERENCE_DATAFND_MANAGE_NATURAL_LANGUAGES",
+   "task_name": "Manage Natural Languages",
+   "catalog_display_sequence": "54",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 52,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_TIMEZONES",
+   "task_list_item": "FND_DEFINE_ISO_REFERENCE_DATAFND_MANAGE_TIMEZONES",
+   "task_name": "Manage Time Zones",
+   "catalog_display_sequence": "55",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 53,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "ASXS_MANAGE_DATA_SECURITY_POLICIES",
+   "task_list_item": "ORA_EGP_COMMON_OBJS_PRODUCTASXS_MANAGE_DATA_SECURITY_POLICIES",
+   "task_name": "Manage Data Security Policies",
+   "catalog_display_sequence": "56",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 54,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_SET_USER_GENERAL_PREFERENCES",
+   "task_list_item": "ORA_EGP_COMMON_OBJS_PRODUCTFND_SET_USER_GENERAL_PREFERENCES",
+   "task_name": "Set User General Preferences",
+   "catalog_display_sequence": "57",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 55,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_AUDIT_POLICIES",
+   "task_list_item": "ORA_EGP_COMMON_OBJS_PRODUCTFND_MANAGE_AUDIT_POLICIES",
+   "task_name": "Manage Audit Policies",
+   "catalog_display_sequence": "58",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 56,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_APPLCORE_MESSAGES",
+   "task_list_item": "FND_MANAGE_APPLCORE_COMMON_REF_OBJECTSFND_MANAGE_APPLCORE_MESSAGES",
+   "task_name": "Manage Applications Core Messages",
+   "catalog_display_sequence": "59",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 57,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_APPLCORE_STANDARD_LOOKUPS",
+   "task_list_item": "FND_MANAGE_APPLCORE_COMMON_REF_OBJECTSFND_MANAGE_APPLCORE_STANDARD_LOOKUPS",
+   "task_name": "Manage Applications Core Standard Lookups",
+   "catalog_display_sequence": "60",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 58,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_APPLICATIONS_CORE_PROFILE_OPTIONS",
+   "task_list_item": "FND_MANAGE_APPLCORE_COMMON_REF_OBJECTSFND_MANAGE_APPLICATIONS_CORE_PROFILE_OPTIONS",
+   "task_name": "Manage Applications Core Profile Options",
+   "catalog_display_sequence": "61",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 59,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_APPLICATIONS_CORE_ADMINISTRATOR_PROFILE_VALUES",
+   "task_list_item": "FND_MANAGE_APPLCORE_COMMON_REF_OBJECTSFND_MANAGE_APPLICATIONS_CORE_ADMINISTRATOR_PROFILE_VALUES",
+   "task_name": "Manage Applications Core Administrator Profile Values",
+   "catalog_display_sequence": "62",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 60,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_APPLICATIONS_CORE_PROFILE_CATEGORIES",
+   "task_list_item": "FND_MANAGE_APPLCORE_COMMON_REF_OBJECTSFND_MANAGE_APPLICATIONS_CORE_PROFILE_CATEGORIES",
+   "task_name": "Manage Applications Core Profile Categories",
+   "catalog_display_sequence": "63",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 61,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_APPLCORE_VALUE_SETS",
+   "task_list_item": "FND_MANAGE_APPLCORE_COMMON_REF_OBJECTSFND_MANAGE_APPLCORE_VALUE_SETS",
+   "task_name": "Manage Applications Core Value Sets",
+   "catalog_display_sequence": "64",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 62,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_APPLCORE_DESCRIPTIVE_FLEXFIELDS",
+   "task_list_item": "FND_MANAGE_APPLCORE_COMMON_REF_OBJECTSFND_MANAGE_APPLCORE_DESCRIPTIVE_FLEXFIELDS",
+   "task_name": "Manage Applications Core Descriptive Flexfields",
+   "catalog_display_sequence": "65",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 63,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_ENTITIES",
+   "task_list_item": "FND_MANAGE_APPLCORE_COMMON_REF_OBJECTSFND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_ENTITIES",
+   "task_name": "Manage Applications Core Attachment Entities",
+   "catalog_display_sequence": "66",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 64,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "FND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_CATEGORIES",
+   "task_list_item": "FND_MANAGE_APPLCORE_COMMON_REF_OBJECTSFND_MANAGE_APPLICATIONS_CORE_ATTACHMENT_CATEGORIES",
+   "task_name": "Manage Applications Core Attachment Categories",
+   "catalog_display_sequence": "67",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 65,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "ORA_FND_GLOBAL_SEARCH_CONFIGURATIONS",
+   "task_list_item": "FND_MANAGE_APPLCORE_COMMON_REF_OBJECTSORA_FND_GLOBAL_SEARCH_CONFIGURATIONS",
+   "task_name": "Manage Applications Core Global Search Configurations",
+   "catalog_display_sequence": "68",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 66,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "ORA_FND_SUGGESTION_GROUPS",
+   "task_list_item": "FND_MANAGE_APPLCORE_COMMON_REF_OBJECTSORA_FND_SUGGESTION_GROUPS",
+   "task_name": "Manage Applications Core Global Search Suggestion Groups",
+   "catalog_display_sequence": "69",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 67,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "MCT_ENABLE_CLICK_TO_DIAL",
+   "task_list_item": "ORA_EGP_WEBLOGIC_COM_SERVICEMCT_ENABLE_CLICK_TO_DIAL",
+   "task_name": "Enable Click to Dial",
+   "catalog_display_sequence": "73",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 68,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "ORA_RCS_GUIDED_JOURNEY",
+   "task_list_item": "ORA_EGP_DEFINE_EXTENSIONS_ORA_RCS_GUIDED_JOURNEY",
+   "task_name": "Guided Journeys",
+   "catalog_display_sequence": "74",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 69,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "INV_MANAGE_TASK_CONFIGURATIONS",
+   "task_list_item": "INV_DEFINE_APPROVAL_MANAGEMENTINV_MANAGE_TASK_CONFIGURATIONS",
+   "task_name": "Manage Task Configurations for Supply Chain Management",
+   "catalog_display_sequence": "100",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 70,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ASK_APPLICATION_EXTENSIONS",
+   "task_code": "ORA_MANAGE_APPROVAL_GROUPS",
+   "task_list_item": "300100021813777",
+   "task_name": "Manage Approval Groups",
+   "catalog_display_sequence": "101",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 71,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "RCS_MANAGE_FACILITY_SHIFTS",
+   "task_list_item": "EGP_DEFINE_FACILITIESRCS_MANAGE_FACILITY_SHIFTS",
+   "task_name": "Manage Facility Shifts",
+   "catalog_display_sequence": "202",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 72,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "RCS_MANAGE_FACILITY_WORKDAY_PATTERNS",
+   "task_list_item": "EGP_DEFINE_FACILITIESRCS_MANAGE_FACILITY_WORKDAY_PATTERNS",
+   "task_name": "Manage Facility Workday Patterns",
+   "catalog_display_sequence": "203",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 73,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "RCS_MANAGE_FACILITY_SCHEDULE_EXCEPTIONS",
+   "task_list_item": "EGP_DEFINE_FACILITIESRCS_MANAGE_FACILITY_SCHEDULE_EXCEPTIONS",
+   "task_name": "Manage Facility Schedule Exceptions",
+   "catalog_display_sequence": "204",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 74,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "RCS_MANAGE_FACILITY_SCHEDULES",
+   "task_list_item": "EGP_DEFINE_FACILITIESRCS_MANAGE_FACILITY_SCHEDULES",
+   "task_name": "Manage Facility Schedules",
+   "catalog_display_sequence": "205",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 75,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "XLE_MANAGE_LEGAL_ENTITY",
+   "task_list_item": "EGP_DEFINE_LEGAL_ENTITIESXLE_MANAGE_LEGAL_ENTITY",
+   "task_name": "Manage Legal Entity",
+   "catalog_display_sequence": "206",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 76,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SETS",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SETS",
+   "task_name": "Manage Chart of Accounts Value Sets",
+   "catalog_display_sequence": "207",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 77,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_MANAGE_CHARTS_OF_ACCOUNTS",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHARTS_OF_ACCOUNTS",
+   "task_name": "Manage Chart of Accounts Structures",
+   "catalog_display_sequence": "208",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 78,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES",
+   "task_name": "Manage Chart of Accounts Structure Instances",
+   "catalog_display_sequence": "209",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 79,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES",
+   "task_name": "Manage Chart of Accounts Value Set Values",
+   "catalog_display_sequence": "210",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 80,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_MANAGE_ACCOUNTING_CALENDARS",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_ACCOUNTING_CALENDARS",
+   "task_name": "Manage Accounting Calendars",
+   "catalog_display_sequence": "211",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 81,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_MANAGE_PRIMARY_LEDGERS",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_PRIMARY_LEDGERS",
+   "task_name": "Manage Primary Ledgers",
+   "catalog_display_sequence": "212",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 82,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_ASSIGN_LEGAL_ENTITIES",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_ASSIGN_LEGAL_ENTITIES",
+   "task_name": "Assign Legal Entities",
+   "catalog_display_sequence": "213",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 83,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_SPECIFY_LEDGER_OPTIONS",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_SPECIFY_LEDGER_OPTIONS",
+   "task_name": "Specify Ledger Options",
+   "catalog_display_sequence": "214",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 84,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEGAL_ENTITIES",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEGAL_ENTITIES",
+   "task_name": "Assign Balancing Segment Values to Legal Entities",
+   "catalog_display_sequence": "215",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 85,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_MANAGE_REPORTING_CURRENCIES",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_REPORTING_CURRENCIES",
+   "task_name": "Manage Reporting Currencies",
+   "catalog_display_sequence": "216",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 86,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEDGER",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEDGER",
+   "task_name": "Assign Balancing Segment Values to Ledger",
+   "catalog_display_sequence": "217",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 87,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_VIEW_ACCOUNTING_CONFIGURATION_SUMMARY",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_VIEW_ACCOUNTING_CONFIGURATION_SUMMARY",
+   "task_name": "View Accounting Configuration Summary",
+   "catalog_display_sequence": "218",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 88,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "GL_REVIEW_AND_SUBMIT_ACCOUNTING_CONFIGURATION",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_REVIEW_AND_SUBMIT_ACCOUNTING_CONFIGURATION",
+   "task_name": "Review and Submit Accounting Configuration",
+   "catalog_display_sequence": "219",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 89,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "FUN_MANAGE_BUSINESS_UNIT",
+   "task_list_item": "EGP_DEFINE_BUSINESS_UNITSFUN_MANAGE_BUSINESS_UNIT",
+   "task_name": "Manage Business Unit",
+   "catalog_display_sequence": "220",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 90,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "FUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION",
+   "task_list_item": "EGP_DEFINE_BUSINESS_UNITSFUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION",
+   "task_name": "Assign Business Unit Business Function",
+   "catalog_display_sequence": "221",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 91,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT",
+   "task_list_item": "EGP_DEFINE_BUSINESS_UNITSFUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT",
+   "task_name": "Manage Business Unit Set Assignment",
+   "catalog_display_sequence": "222",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 92,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "INV_MANAGE_INVENTORY_ORGANIZATIONS",
+   "task_list_item": "ORA_EGP_INVENTORY_ORGSINV_MANAGE_INVENTORY_ORGANIZATIONS",
+   "task_name": "Manage Inventory Organizations",
+   "catalog_display_sequence": "223",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 93,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "PER_MANAGE_ORGANIZATION_TREE",
+   "task_list_item": "ORA_EGP_INVENTORY_ORGSPER_MANAGE_ORGANIZATION_TREE",
+   "task_name": "Manage Organization Trees",
+   "catalog_display_sequence": "224",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 94,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_INVENTORY_ORGANIZAT",
+   "task_code": "ORA_RCS_ASSOCIATE_FABOOK_WITH_INVENTORY_ORGANIZATION",
+   "task_list_item": "ORA_EGP_INVENTORY_ORGS_ORA_RCS_ASSOCIATE_FABOOK_WITH_INVENTORY_ORGANIZATION",
+   "task_name": "Associate Fixed Asset Books with Inventory Organizations",
+   "catalog_display_sequence": "225",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 95,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "RCS_MANAGE_FACILITY_SHIFTS",
+   "task_list_item": "EGP_DEFINE_FACILITIESRCS_MANAGE_FACILITY_SHIFTS",
+   "task_name": "Manage Facility Shifts",
+   "catalog_display_sequence": "76",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 96,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "RCS_MANAGE_FACILITY_WORKDAY_PATTERNS",
+   "task_list_item": "EGP_DEFINE_FACILITIESRCS_MANAGE_FACILITY_WORKDAY_PATTERNS",
+   "task_name": "Manage Facility Workday Patterns",
+   "catalog_display_sequence": "77",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 97,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "RCS_MANAGE_FACILITY_SCHEDULE_EXCEPTIONS",
+   "task_list_item": "EGP_DEFINE_FACILITIESRCS_MANAGE_FACILITY_SCHEDULE_EXCEPTIONS",
+   "task_name": "Manage Facility Schedule Exceptions",
+   "catalog_display_sequence": "78",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 98,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "RCS_MANAGE_FACILITY_SCHEDULES",
+   "task_list_item": "EGP_DEFINE_FACILITIESRCS_MANAGE_FACILITY_SCHEDULES",
+   "task_name": "Manage Facility Schedules",
+   "catalog_display_sequence": "79",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 99,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "XLE_MANAGE_LEGAL_ENTITY",
+   "task_list_item": "EGP_DEFINE_LEGAL_ENTITIESXLE_MANAGE_LEGAL_ENTITY",
+   "task_name": "Manage Legal Entity",
+   "catalog_display_sequence": "80",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 100,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SETS",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SETS",
+   "task_name": "Manage Chart of Accounts Value Sets",
+   "catalog_display_sequence": "81",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 101,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_MANAGE_CHARTS_OF_ACCOUNTS",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHARTS_OF_ACCOUNTS",
+   "task_name": "Manage Chart of Accounts Structures",
+   "catalog_display_sequence": "82",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 102,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHARTS_OF_ACCOUNTS_STRUCTURE_INSTANCES",
+   "task_name": "Manage Chart of Accounts Structure Instances",
+   "catalog_display_sequence": "83",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 103,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_CHART_OF_ACCOUNTS_VALUE_SET_VALUES",
+   "task_name": "Manage Chart of Accounts Value Set Values",
+   "catalog_display_sequence": "84",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 104,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_MANAGE_ACCOUNTING_CALENDARS",
+   "task_list_item": "EGP_DEFINE_CHART_OF_ACCOUNTS_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_ACCOUNTING_CALENDARS",
+   "task_name": "Manage Accounting Calendars",
+   "catalog_display_sequence": "85",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 105,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_MANAGE_PRIMARY_LEDGERS",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_PRIMARY_LEDGERS",
+   "task_name": "Manage Primary Ledgers",
+   "catalog_display_sequence": "86",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 106,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_ASSIGN_LEGAL_ENTITIES",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_ASSIGN_LEGAL_ENTITIES",
+   "task_name": "Assign Legal Entities",
+   "catalog_display_sequence": "87",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 107,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_SPECIFY_LEDGER_OPTIONS",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_SPECIFY_LEDGER_OPTIONS",
+   "task_name": "Specify Ledger Options",
+   "catalog_display_sequence": "88",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 108,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEGAL_ENTITIES",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEGAL_ENTITIES",
+   "task_name": "Assign Balancing Segment Values to Legal Entities",
+   "catalog_display_sequence": "89",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 109,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_MANAGE_REPORTING_CURRENCIES",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_MANAGE_REPORTING_CURRENCIES",
+   "task_name": "Manage Reporting Currencies",
+   "catalog_display_sequence": "90",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 110,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEDGER",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_ASSIGN_BALANCING_SEGMENT_VALUES_TO_LEDGER",
+   "task_name": "Assign Balancing Segment Values to Ledger",
+   "catalog_display_sequence": "91",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 111,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_VIEW_ACCOUNTING_CONFIGURATION_SUMMARY",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_VIEW_ACCOUNTING_CONFIGURATION_SUMMARY",
+   "task_name": "View Accounting Configuration Summary",
+   "catalog_display_sequence": "92",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 112,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "GL_REVIEW_AND_SUBMIT_ACCOUNTING_CONFIGURATION",
+   "task_list_item": "EGP_DEFINE_ACCOUNTING_CONF_FOR_ENTERPRISE_STRUCTURESGL_REVIEW_AND_SUBMIT_ACCOUNTING_CONFIGURATION",
+   "task_name": "Review and Submit Accounting Configuration",
+   "catalog_display_sequence": "93",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 113,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "FUN_MANAGE_BUSINESS_UNIT",
+   "task_list_item": "EGP_DEFINE_BUSINESS_UNITSFUN_MANAGE_BUSINESS_UNIT",
+   "task_name": "Manage Business Unit",
+   "catalog_display_sequence": "94",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 114,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "FUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION",
+   "task_list_item": "EGP_DEFINE_BUSINESS_UNITSFUN_ASSIGN_BUSINESS_UNIT_BUSINESS_FUNCTION",
+   "task_name": "Assign Business Unit Business Function",
+   "catalog_display_sequence": "95",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 115,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "FUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT",
+   "task_list_item": "EGP_DEFINE_BUSINESS_UNITSFUN_MANAGE_BUSINESS_UNIT_SET_ASSIGNMENT",
+   "task_name": "Manage Business Unit Set Assignment",
+   "catalog_display_sequence": "96",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 116,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "EGP_MANAGE_ITEM_ORGANIZATIONS",
+   "task_list_item": "ORA_EGP_DEFINE_ITEM_ORGSEGP_MANAGE_ITEM_ORGANIZATIONS",
+   "task_name": "Manage Item Organizations",
+   "catalog_display_sequence": "97",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 117,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "PER_MANAGE_ORGANIZATION_TREE",
+   "task_list_item": "ORA_EGP_DEFINE_ITEM_ORGSPER_MANAGE_ORGANIZATION_TREE",
+   "task_name": "Manage Organization Trees",
+   "catalog_display_sequence": "98",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 118,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "ORA_EDR_ELECTRONIC_SIGN_PREF",
+   "task_list_item": "300100021621777",
+   "task_name": "Configure Electronic Signature Preferences",
+   "catalog_display_sequence": "99",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 119,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "INV_MANAGE_TASK_CONFIGURATIONS",
+   "task_list_item": "INV_DEFINE_APPROVAL_MANAGEMENTINV_MANAGE_TASK_CONFIGURATIONS",
+   "task_name": "Manage Task Configurations for Supply Chain Management",
+   "catalog_display_sequence": "100",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 120,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEM_ORGANIZATIONS",
+   "task_code": "ORA_MANAGE_APPROVAL_GROUPS",
+   "task_list_item": "300100021813777",
+   "task_name": "Manage Approval Groups",
+   "catalog_display_sequence": "101",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 121,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_MANAGE_ITEM_PROFILE_OPTIONS",
+   "task_list_item": "ORA_EGO_ITEMSEGP_MANAGE_ITEM_PROFILE_OPTIONS",
+   "task_name": "Manage Item Profile Options",
+   "catalog_display_sequence": "102",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 122,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGO_MANAGE_ADVANCED_ITEM_PROFILE_OPTIONS",
+   "task_list_item": "ORA_EGO_ITEMSEGO_MANAGE_ADVANCED_ITEM_PROFILE_OPTIONS",
+   "task_name": "Manage Advanced Item Profile Options",
+   "catalog_display_sequence": "103",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 123,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_RCS_MANAGE_UOM_PROFILE",
+   "task_list_item": "RCS_DEFINE_UNITS_OF_MEASUREORA_RCS_MANAGE_UOM_PROFILE",
+   "task_name": "Manage Units of Measure Profiles",
+   "catalog_display_sequence": "104",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 124,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_RCS_MANAGE_SCMCOM_VALUE_SETS",
+   "task_list_item": "RCS_DEFINE_UNITS_OF_MEASUREORA_RCS_MANAGE_SCMCOM_VALUE_SETS",
+   "task_name": "Manage SCM Common Value Sets",
+   "catalog_display_sequence": "105",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 125,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_RCS_MANAGE_UOM_DESCRIPTIVE_FLEXFIELDS",
+   "task_list_item": "RCS_DEFINE_UNITS_OF_MEASUREORA_RCS_MANAGE_UOM_DESCRIPTIVE_FLEXFIELDS",
+   "task_name": "Manage Units of Measure Descriptive Flexfields",
+   "catalog_display_sequence": "106",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 126,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "INV_MANAGE_UNITS_OF_MEASURE",
+   "task_list_item": "RCS_DEFINE_UNITS_OF_MEASUREINV_MANAGE_UNITS_OF_MEASURE",
+   "task_name": "Manage Units of Measure",
+   "catalog_display_sequence": "107",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 127,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_MANAGE_UNIT_OF_MEASURE_CLASSES",
+   "task_list_item": "ORA_RCS_DEFINE_UNITS_OF_MEASURE_ORA_MANAGE_UNIT_OF_MEASURE_CLASSES",
+   "task_name": "Manage Unit of Measure Classes",
+   "catalog_display_sequence": "108",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 128,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_MANAGE_LIFECYCLE_PHASES",
+   "task_list_item": "ORA_EGO_ITEMSEGP_MANAGE_LIFECYCLE_PHASES",
+   "task_name": "Manage Lifecycle Phases",
+   "catalog_display_sequence": "109",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 129,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_MANAGE_PRODUCT_VALUE_SETS",
+   "task_list_item": "ORA_EGO_ITEMSEGP_MANAGE_PRODUCT_VALUE_SETS",
+   "task_name": "Manage Product and Child Value Sets",
+   "catalog_display_sequence": "110",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 130,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_EGP_MANAGE_ATTACH_CAT_FOR_PIM",
+   "task_list_item": "ORA_EGO_ITEMSORA_EGP_MANAGE_ATTACH_CAT_FOR_PIM",
+   "task_name": "Manage Attachment Categories for Product Management",
+   "catalog_display_sequence": "111",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 131,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_MANAGE_OPERATIONAL_ATTRIBUTES_GROUPS",
+   "task_list_item": "ORA_EGO_ITEMSEGP_MANAGE_OPERATIONAL_ATTRIBUTES_GROUPS",
+   "task_name": "Manage Operational Attributes Groups",
+   "catalog_display_sequence": "112",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 132,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGO_MANAGE_ITEM_ATTRIBUTE_GROUPS_AND_ATTRIBUTES",
+   "task_list_item": "ORA_EGO_ITEMSEGO_MANAGE_ITEM_ATTRIBUTE_GROUPS_AND_ATTRIBUTES",
+   "task_name": "Manage Item Attribute Groups and Attributes",
+   "catalog_display_sequence": "113",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 133,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGO_MANAGE_ITEM_CLASSES",
+   "task_list_item": "ORA_EGO_ITEMSEGO_MANAGE_ITEM_CLASSES",
+   "task_name": "Manage Item Classes",
+   "catalog_display_sequence": "114",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 134,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_ITEM_CLASS_DFFS",
+   "task_list_item": "ORA_EGO_ITEMSEGP_ITEM_CLASS_DFFS",
+   "task_name": "Manage Item Class Descriptive Flexfields",
+   "catalog_display_sequence": "115",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 135,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGO_DEPLOY_EFFS",
+   "task_list_item": "ORA_EGO_ITEMSEGO_DEPLOY_EFFS",
+   "task_name": "Deploy Item Extensible Flexfields",
+   "catalog_display_sequence": "116",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 136,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_MANAGE_ITEM_STATUSES",
+   "task_list_item": "ORA_EGO_ITEMSEGP_MANAGE_ITEM_STATUSES",
+   "task_name": "Manage Item Statuses",
+   "catalog_display_sequence": "117",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 137,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_MANAGE_ITEM_TYPES",
+   "task_list_item": "ORA_EGO_ITEMSEGP_MANAGE_ITEM_TYPES",
+   "task_name": "Manage Item Types",
+   "catalog_display_sequence": "118",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 138,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_MANAGE_CROSS_REFERENCE_TYPES",
+   "task_list_item": "ORA_EGO_ITEMSEGP_MANAGE_CROSS_REFERENCE_TYPES",
+   "task_name": "Manage Cross Reference Types",
+   "catalog_display_sequence": "119",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 139,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_MANAGE_ITEM_DESCRIPTIVE_FLEXFIELDS",
+   "task_list_item": "ORA_EGO_ITEMSEGP_MANAGE_ITEM_DESCRIPTIVE_FLEXFIELDS",
+   "task_name": "Manage Item Descriptive Flexfields",
+   "catalog_display_sequence": "120",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 140,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGI_MANAGE_IMPORT_MAPS",
+   "task_list_item": "ORA_EGO_ITEMS_EGI_MANAGE_IMPORT_MAPS",
+   "task_name": "Manage Import Maps",
+   "catalog_display_sequence": "121",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 141,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_EGP_DOWNLOAD_IMPORT_TEMPLATE_OER",
+   "task_list_item": "ORA_EGO_ITEMSORA_EGP_DOWNLOAD_IMPORT_TEMPLATE_OER",
+   "task_name": "Download Import Template from Oracle Help Center",
+   "catalog_display_sequence": "122",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 142,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_EGP_UPLOAD_ITEM_DATA",
+   "task_list_item": "ORA_EGO_ITEMSORA_EGP_UPLOAD_ITEM_DATA",
+   "task_name": "Upload Item Data",
+   "catalog_display_sequence": "123",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 143,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_EGP_LOAD_FILE_SCHEDULED_PROCESSS",
+   "task_list_item": "ORA_EGO_ITEMSORA_EGP_LOAD_FILE_SCHEDULED_PROCESSS",
+   "task_name": "Load Interface File through Scheduled Process",
+   "catalog_display_sequence": "124",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 144,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_IMPORT_ITEMS",
+   "task_list_item": "ORA_EGO_ITEMSEGP_IMPORT_ITEMS",
+   "task_name": "Import Items",
+   "catalog_display_sequence": "125",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 145,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_MANAGE_RELATED_ITEM_SUBTYPES",
+   "task_list_item": "ORA_EGO_ITEMSEGP_MANAGE_RELATED_ITEM_SUBTYPES",
+   "task_name": "Manage Related Item Subtypes",
+   "catalog_display_sequence": "126",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 146,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_MANAGE_ITEM_REV_DFFS",
+   "task_list_item": "ORA_EGO_ITEMSEGP_MANAGE_ITEM_REV_DFFS",
+   "task_name": "Manage Item Revision Descriptive Flexfields",
+   "catalog_display_sequence": "127",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 147,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_ITEM_RELATIONSHIP_DFFS",
+   "task_list_item": "ORA_EGO_ITEMSEGP_ITEM_RELATIONSHIP_DFFS",
+   "task_name": "Manage Item Relationship Descriptive Flexfields",
+   "catalog_display_sequence": "128",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 148,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "EGP_TRADING_PARTNER_ITEMS_DFFS",
+   "task_list_item": "ORA_EGO_ITEMSEGP_TRADING_PARTNER_ITEMS_DFFS",
+   "task_name": "Manage Trading Partner Item Descriptive Flexfields",
+   "catalog_display_sequence": "129",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 149,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "RCS_MANAGE_UOM_INTER_CLASS_CONV",
+   "task_list_item": "ORA_RCS_DEFINE_ITEM_SPECIFIC_CONVERSIONSRCS_MANAGE_UOM_INTER_CLASS_CONV",
+   "task_name": "Manage Units of Measure for Interclass Conversion",
+   "catalog_display_sequence": "130",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 150,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "RCS_MANAGE_UOM_INTRA_CLASS_CONV",
+   "task_list_item": "ORA_RCS_DEFINE_ITEM_SPECIFIC_CONVERSIONSRCS_MANAGE_UOM_INTRA_CLASS_CONV",
+   "task_name": "Manage Units of Measure for Intraclass Conversion",
+   "catalog_display_sequence": "131",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 151,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_MANAGE_ITEM_SPECIFIC_UOM_CONVERSIONS",
+   "task_list_item": "ORA_RCS_DEFINE_ITEM_SPECIFIC_CONVERSIONS_ORA_MANAGE_ITEM_SPECIFIC_UOM_CONVERSIONS",
+   "task_name": "Manage Item-Specific UOM Conversions",
+   "catalog_display_sequence": "132",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 152,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_EGP_MANAGE_ITEM_KEYWORD_SEARCH",
+   "task_list_item": "ORA_EGO_ITEMSORA_EGP_MANAGE_ITEM_KEYWORD_SEARCH",
+   "task_name": "Manage Item Keyword Search Attributes",
+   "catalog_display_sequence": "133",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 153,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_MANAGE_RELATED_ITEM_TYPES",
+   "task_list_item": "ORA_EGO_ITEMS_ORA_MANAGE_RELATED_ITEM_TYPES",
+   "task_name": "Manage Related Item Types",
+   "catalog_display_sequence": "134",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 154,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "ORA_MANAGE_MANUFACTURER_ATTRIBUTE_GROUPS_AND_ATTRIBUTES",
+   "task_list_item": "ORA_EGO_ITEMS_ORA_MANAGE_MANUFACTURER_ATTRIBUTE_GROUPS_AND_ATTRIBUTES",
+   "task_name": "Manage Manufacturer Attribute Groups and Attributes",
+   "catalog_display_sequence": "135",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 155,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_ITEMS",
+   "task_code": "CUSTOM_EGP_FBDI_IMPORT_REF_ORG_ITEMS",
+   "task_list_item": "CUSTOM_EGP_FBDI_IMPORT_REF_ORG_ITEMS",
+   "task_name": "Reference Organization Items Import",
+   "catalog_display_sequence": null,
+   "sequence_source": "functional_area_tail"
+  },
+  {
+   "sequence": 156,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_CATALOGS",
+   "task_code": "EGP_MANAGE_DEFAULT_CATALOGS",
+   "task_list_item": "ORA_EGP_DEFINE_BASIC_CAT_PIMEGP_MANAGE_DEFAULT_CATALOGS",
+   "task_name": "Manage Functional Area Catalogs",
+   "catalog_display_sequence": "150",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 157,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_CATALOGS",
+   "task_code": "EGP_MANAGE_CATALOG_ATTRIBUTES",
+   "task_list_item": "ORA_EGP_DEFINE_BASIC_CAT_PIMEGP_MANAGE_CATALOG_ATTRIBUTES",
+   "task_name": "Manage Catalog Descriptive Flexfields",
+   "catalog_display_sequence": "151",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 158,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_FA_CATALOGS",
+   "task_code": "EGP_MANAGE_CATEGORY_ATTRIBUTES",
+   "task_list_item": "ORA_EGP_DEFINE_BASIC_CAT_PIMEGP_MANAGE_CATEGORY_ATTRIBUTES",
+   "task_name": "Manage Category Descriptive Flexfields",
+   "catalog_display_sequence": "152",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 159,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_ADVANCED_PRODUCT_STRUCT",
+   "task_code": "EGP_MANAGE_ITEM_STRUCTURE_TYPE_ATTRIBUTES",
+   "task_list_item": "EGO_DEFINE_ADVANCED_PRODUCT_STRUCTURESEGP_MANAGE_ITEM_STRUCTURE_TYPE_ATTRIBUTES",
+   "task_name": "Manage Structure Header Descriptive Flexfields",
+   "catalog_display_sequence": "167",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 160,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_ADVANCED_PRODUCT_STRUCT",
+   "task_code": "EGP_MANAGE_ITEM_STRUCTURE_TYPE_DETAILS",
+   "task_list_item": "EGO_DEFINE_ADVANCED_PRODUCT_STRUCTURESEGP_MANAGE_ITEM_STRUCTURE_TYPE_DETAILS",
+   "task_name": "Manage Item Structure Type Details",
+   "catalog_display_sequence": "168",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 161,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_ADVANCED_PRODUCT_STRUCT",
+   "task_code": "EGO_DEFINE_VALID_COMPONENT_TYPE_RULES",
+   "task_list_item": "EGO_DEFINE_ADVANCED_PRODUCT_STRUCTURESEGO_DEFINE_VALID_COMPONENT_TYPE_RULES",
+   "task_name": "Manage Valid Component Type Rules",
+   "catalog_display_sequence": "169",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 162,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_ADVANCED_PRODUCT_STRUCT",
+   "task_code": "EGO_MANAGE_STRUCTURE_COMPONENT_ATTRIBUTES",
+   "task_list_item": "EGO_DEFINE_ADVANCED_PRODUCT_STRUCTURESEGO_MANAGE_STRUCTURE_COMPONENT_ATTRIBUTES",
+   "task_name": "Manage Structure Component Descriptive Flexfields",
+   "catalog_display_sequence": "170",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 163,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_ADVANCED_PRODUCT_STRUCT",
+   "task_code": "EGO_MANAGE_STRUCTURE_SUB_COMPONENT_ATTRIBUTES",
+   "task_list_item": "EGO_DEFINE_ADVANCED_PRODUCT_STRUCTURESEGO_MANAGE_STRUCTURE_SUB_COMPONENT_ATTRIBUTES",
+   "task_name": "Manage Structure Substitute Component Descriptive Flexfields",
+   "catalog_display_sequence": "171",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 164,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_ADVANCED_PRODUCT_STRUCT",
+   "task_code": "EGO_MANAGE_STRUCTURE_REF_DESIGNATOR_ATTRIBUTES",
+   "task_list_item": "EGO_DEFINE_ADVANCED_PRODUCT_STRUCTURESEGO_MANAGE_STRUCTURE_REF_DESIGNATOR_ATTRIBUTES",
+   "task_name": "Manage Structure Reference Designator Descriptive Flexfields",
+   "catalog_display_sequence": "172",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 165,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_ADVANCED_PRODUCT_STRUCT",
+   "task_code": "CUSTOM_EGP_FBDI_IMPORT_STRUCTURES",
+   "task_list_item": "CUSTOM_EGP_FBDI_IMPORT_STRUCTURES",
+   "task_name": "Item Structure Import",
+   "catalog_display_sequence": null,
+   "sequence_source": "functional_area_tail"
+  },
+  {
+   "sequence": 166,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "POZ_SPECIFY_SUPPLIER_NUMBERING",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGTPOZ_SPECIFY_SUPPLIER_NUMBERING",
+   "task_name": "Specify Supplier Numbering",
+   "catalog_display_sequence": "136",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 167,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "POZ_MANAGE_SUPPLIER_TYPE_LOOKUP",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGTPOZ_MANAGE_SUPPLIER_TYPE_LOOKUP",
+   "task_name": "Manage Supplier Type Lookup",
+   "catalog_display_sequence": "137",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 168,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "POZ_MANAGE_TAX_ORGANIZATION_TYPE_LOOKUP",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGTPOZ_MANAGE_TAX_ORGANIZATION_TYPE_LOOKUP",
+   "task_name": "Manage Tax Organization Type Lookup",
+   "catalog_display_sequence": "138",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 169,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "POZ_MANAGE_SUPPLIER_VALUE_SETS",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGTPOZ_MANAGE_SUPPLIER_VALUE_SETS",
+   "task_name": "Manage Supplier Value Sets",
+   "catalog_display_sequence": "139",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 170,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "POZ_MANAGE_SUPPLIER_DESCRIPTIVE_FLEXFIELDS",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGTPOZ_MANAGE_SUPPLIER_DESCRIPTIVE_FLEXFIELDS",
+   "task_name": "Manage Supplier Descriptive Flexfields",
+   "catalog_display_sequence": "140",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 171,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "ORA_POZ_MANAGE_SUPPLIER_MESSAGES",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGTORA_POZ_MANAGE_SUPPLIER_MESSAGES",
+   "task_name": "Manage Supplier Messages",
+   "catalog_display_sequence": "141",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 172,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "ORA_POZ_CONFIGURE_PARTY_RELATIONSHIPS_FOR_SUPPLIER_MATCH",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGT:ORA_DEFINE_SUPPLIER_MATCH_CONFIGURATION_PMORA_POZ_CONFIGURE_PARTY_RELATIONSHIPS_FOR_SUPPLIER_MATCH",
+   "task_name": "Configure Party Relationships for Supplier Match",
+   "catalog_display_sequence": "142",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 173,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "ZCQ_MANAGE_SERVER_CONFIGURATIONS",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGT:ORA_DEFINE_SUPPLIER_MATCH_CONFIGURATION_PMZCQ_MANAGE_SERVER_CONFIGURATIONS",
+   "task_name": "Manage Server Configurations",
+   "catalog_display_sequence": "143",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 174,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "ORA_ZCQ_EDQ_MATCH_CONFIGURATIONS",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGT:ORA_DEFINE_SUPPLIER_MATCH_CONFIGURATION_PMORA_ZCQ_EDQ_MATCH_CONFIGURATIONS",
+   "task_name": "Manage Enterprise Data Quality Matching Configurations",
+   "catalog_display_sequence": "144",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 175,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "ORA_EGP_CREATE_SUPPLIER_IN_PRC",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGTORA_EGP_CREATE_SUPPLIER_IN_PRC",
+   "task_name": "Create Supplier in Procurement",
+   "catalog_display_sequence": "145",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 176,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "POZ_MANAGE_BUSINESS_CLASSIFICATION_LOOKUP",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGT:ORA_DEFINE_BUSINESS_CLASSIFICATION_CONFIGURATION_PMPOZ_MANAGE_BUSINESS_CLASSIFICATION_LOOKUP",
+   "task_name": "Manage Business Classification Lookup",
+   "catalog_display_sequence": "146",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 177,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "POZ_MANAGE_MINORITY_GROUP_LOOKUP",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGT:ORA_DEFINE_BUSINESS_CLASSIFICATION_CONFIGURATION_PMPOZ_MANAGE_MINORITY_GROUP_LOOKUP",
+   "task_name": "Manage Minority Group Lookup",
+   "catalog_display_sequence": "147",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 178,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "HZ_MANAGE_GEOGRAPHIES",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGT:ORA_DEFINE_ADDRESS_CONFIGURATION_PMHZ_MANAGE_GEOGRAPHIES",
+   "task_name": "Manage Geographies",
+   "catalog_display_sequence": "148",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 179,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_SUPPLIER_FOR_PIM",
+   "task_code": "HZ_MANAGE_ADDRESS_FORMATS",
+   "task_list_item": "ORA_EGP_DEFINE_SUPPLIERS_FOR_PRODUCT_MGT:ORA_DEFINE_ADDRESS_CONFIGURATION_PMHZ_MANAGE_ADDRESS_FORMATS",
+   "task_name": "Manage Address Formats",
+   "catalog_display_sequence": "149",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 180,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_MASS_UPDATE",
+   "task_code": "ORA_EGO_ITEM_BATCH_IMPORT_FORMAT",
+   "task_list_item": "ORA_EGO_DEFINE_ITEM_MASS_UPDATE_CONFIGORA_EGO_ITEM_BATCH_IMPORT_FORMAT",
+   "task_name": "Manage Item Import Formats Configuration",
+   "catalog_display_sequence": "191",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 181,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGI_ADVANCED_CATALOGS",
+   "task_code": "EGI_MANAGE_CATALOG_MAPPINGS",
+   "task_list_item": "EGI_DEFINE_ADVANCED_CATALOGSEGI_MANAGE_CATALOG_MAPPINGS",
+   "task_name": "Manage Catalog Mappings",
+   "catalog_display_sequence": "183",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 182,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_NEW_ITEM_REQUESTS",
+   "task_code": "EGO_MANAGE_CHANGE_ORDER_DFFS",
+   "task_list_item": "EGO_DEFINE_NEW_ITEM_REQUESTSEGO_MANAGE_CHANGE_ORDER_DFFS",
+   "task_name": "Manage Change Order and New Item Request Header Descriptive Flexfields",
+   "catalog_display_sequence": "173",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 183,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_NEW_ITEM_REQUESTS",
+   "task_code": "EGO_MANAGE_NEW_ITEM_REQUEST_TYPE_DETAILS",
+   "task_list_item": "EGO_DEFINE_NEW_ITEM_REQUESTSEGO_MANAGE_NEW_ITEM_REQUEST_TYPE_DETAILS",
+   "task_name": "Manage New Item Request Type Details",
+   "catalog_display_sequence": "174",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 184,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_NEW_ITEM_REQUESTS",
+   "task_code": "EGO_MANAGE_CHANGE_ORDER_LINES_DFFS",
+   "task_list_item": "EGO_DEFINE_NEW_ITEM_REQUESTSEGO_MANAGE_CHANGE_ORDER_LINES_DFFS",
+   "task_name": "Manage Change Order and New Item Request Line Descriptive Flexfields",
+   "catalog_display_sequence": "175",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 185,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_NEW_ITEM_REQUESTS",
+   "task_code": "INV_MANAGE_TASK_CONFIGURATIONS",
+   "task_list_item": "EGO_DEFINE_NEW_ITEM_REQUESTSINV_MANAGE_TASK_CONFIGURATIONS",
+   "task_name": "Manage Task Configurations for Supply Chain Management",
+   "catalog_display_sequence": "176",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 186,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_NEW_ITEM_REQUESTS",
+   "task_code": "ORA_MANAGE_APPROVAL_GROUPS",
+   "task_list_item": "300100025652780",
+   "task_name": "Manage Approval Groups",
+   "catalog_display_sequence": "177",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 187,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "EGO_MANAGE_CHANGE_REASONS",
+   "task_list_item": "EGO_DEFINE_CHANGE_ORDERSEGO_MANAGE_CHANGE_REASONS",
+   "task_name": "Manage Change Reasons",
+   "catalog_display_sequence": "153",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 188,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "EGO_MANAGE_CHANGE_PRIORITIES",
+   "task_list_item": "EGO_DEFINE_CHANGE_ORDERSEGO_MANAGE_CHANGE_PRIORITIES",
+   "task_name": "Manage Change Priorities",
+   "catalog_display_sequence": "154",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 189,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "EGO_MANAGE_CHANGE_STATUSES",
+   "task_list_item": "EGO_DEFINE_CHANGE_ORDERSEGO_MANAGE_CHANGE_STATUSES",
+   "task_name": "Manage Change Statuses",
+   "catalog_display_sequence": "155",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 190,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "EGO_MANAGE_CHANGE_ORDER_TYPES",
+   "task_list_item": "EGO_DEFINE_CHANGE_ORDERSEGO_MANAGE_CHANGE_ORDER_TYPES",
+   "task_name": "Manage Change Order Types",
+   "catalog_display_sequence": "156",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 191,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "EGO_MANAGE_CHANGE_ORDER_DFFS",
+   "task_list_item": "EGO_DEFINE_CHANGE_ORDERSEGO_MANAGE_CHANGE_ORDER_DFFS",
+   "task_name": "Manage Change Order and New Item Request Header Descriptive Flexfields",
+   "catalog_display_sequence": "157",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 192,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "EGO_MANAGE_CHANGE_ORDER_LINES_DFFS",
+   "task_list_item": "EGO_DEFINE_CHANGE_ORDERSEGO_MANAGE_CHANGE_ORDER_LINES_DFFS",
+   "task_name": "Manage Change Order and New Item Request Line Descriptive Flexfields",
+   "catalog_display_sequence": "158",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 193,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "PER_MANAGE_ORGANIZATION_TREE",
+   "task_list_item": "EGO_DEFINE_CHANGE_ORDERSPER_MANAGE_ORGANIZATION_TREE",
+   "task_name": "Manage Organization Trees",
+   "catalog_display_sequence": "159",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 194,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "INV_MANAGE_TASK_CONFIGURATIONS",
+   "task_list_item": "EGO_DEFINE_CHANGE_ORDERSINV_MANAGE_TASK_CONFIGURATIONS",
+   "task_name": "Manage Task Configurations for Supply Chain Management",
+   "catalog_display_sequence": "160",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 195,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "ORA_MANAGE_APPROVAL_GROUPS",
+   "task_list_item": "300100025652778",
+   "task_name": "Manage Approval Groups",
+   "catalog_display_sequence": "161",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 196,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "ORA_ACA_MANAGE_CHANGE_RULE_SETS",
+   "task_list_item": "ORA_EGO_DEFINE_CHANGE_ORDERS_ORA_ACA_MANAGE_CHANGE_RULE_SETS",
+   "task_name": "Manage Change Order Entry and Exit Rule Sets",
+   "catalog_display_sequence": "162",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 197,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "ORA_MANAGE_CHANGE_ATTRIBUTE_GROUPS_AND_ATTRIBUTES",
+   "task_list_item": "ORA_EGO_DEFINE_CHANGE_ORDERS_ORA_MANAGE_CHANGE_ATTRIBUTE_GROUPS_AND_ATTRIBUTES",
+   "task_name": "Manage Change Attribute Groups and Attributes",
+   "catalog_display_sequence": "163",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 198,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "ORA_MANAGE_WORKFLOW_REJECT_REASON_LOOKUP",
+   "task_list_item": "ORA_EGO_DEFINE_CHANGE_ORDERS_ORA_MANAGE_WORKFLOW_REJECT_REASON_LOOKUP",
+   "task_name": "Manage Workflow Rejection Reasons",
+   "catalog_display_sequence": "164",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 199,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_CHANGE_ORDERS",
+   "task_code": "CUSTOM_EGP_FBDI_IMPORT_CHANGE_ORDERS",
+   "task_list_item": "CUSTOM_EGP_FBDI_IMPORT_CHANGE_ORDERS",
+   "task_name": "Change Orders Import",
+   "catalog_display_sequence": null,
+   "sequence_source": "functional_area_tail"
+  },
+  {
+   "sequence": 200,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_PRODUCT_RULES",
+   "task_code": "EGO_MANAGE_ITEM_RULE_SETS",
+   "task_list_item": "EGO_DEFINE_PRODUCT_RULESEGO_MANAGE_ITEM_RULE_SETS",
+   "task_name": "Manage Item Rule Sets",
+   "catalog_display_sequence": "165",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 201,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGO_PRODUCT_RULES",
+   "task_code": "ORA_EGO_REGISTER_WEB_SRV_WITH_COMPOSER",
+   "task_list_item": "EGO_DEFINE_PRODUCT_RULESORA_EGO_REGISTER_WEB_SRV_WITH_COMPOSER",
+   "task_name": "Register Web Services through Oracle CRM Application Composer",
+   "catalog_display_sequence": "166",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 202,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGI_DATA_QLTY_RULES_PROD",
+   "task_code": "EGI_MANAGE_DQ_FOR_PRODUCTS_PROFILE_OPTIONS",
+   "task_list_item": "EGI_DEFINE_DATA_QUALITY_FOR_PRODUCTSEGI_MANAGE_DQ_FOR_PRODUCTS_PROFILE_OPTIONS",
+   "task_name": "Manage Data Quality for Products Profile Options",
+   "catalog_display_sequence": "184",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 203,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGI_AUDIT_TRAIL",
+   "task_code": "FND_MANAGE_AUDIT_POLICIES",
+   "task_list_item": "ORA_EGP_AUDIT_HIS_PROD_MGTFND_MANAGE_AUDIT_POLICIES",
+   "task_name": "Manage Audit Policies",
+   "catalog_display_sequence": "201",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 204,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGI_PRODUCT_SOURCE_SYSTEMS",
+   "task_code": "HZ_MANAGE_TRADING_COMMUNITY_SOURCE_SYSTEMS",
+   "task_list_item": "ORA_EGP_DEFINE_SOURCE_SYSTEMS_FOR_PRODUCTSHZ_MANAGE_TRADING_COMMUNITY_SOURCE_SYSTEMS",
+   "task_name": "Manage Trading Community Source Systems",
+   "catalog_display_sequence": "178",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 205,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGI_PRODUCT_SOURCE_SYSTEMS",
+   "task_code": "HZ_MANAGE_SOURCE_SYSTEM_ENTITIES",
+   "task_list_item": "ORA_EGP_DEFINE_SOURCE_SYSTEMS_FOR_PRODUCTSHZ_MANAGE_SOURCE_SYSTEM_ENTITIES",
+   "task_name": "Manage Source System Entities",
+   "catalog_display_sequence": "179",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 206,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGI_PRODUCT_SOURCE_SYSTEMS",
+   "task_code": "HZ_MANAGE_SOURCE_SYSTEM_LOOKUPS",
+   "task_list_item": "ORA_EGP_DEFINE_SOURCE_SYSTEMS_FOR_PRODUCTSHZ_MANAGE_SOURCE_SYSTEM_LOOKUPS",
+   "task_name": "Manage Source System Lookups",
+   "catalog_display_sequence": "180",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 207,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGI_PRODUCT_SOURCE_SYSTEMS",
+   "task_code": "HZ_MANAGE_SOURCE_SYSTEM_DESCRIPTIVE_FLEXFIELDS",
+   "task_list_item": "ORA_EGP_DEFINE_SOURCE_SYSTEMS_FOR_PRODUCTSHZ_MANAGE_SOURCE_SYSTEM_DESCRIPTIVE_FLEXFIELDS",
+   "task_name": "Manage Source System Descriptive Flexfields",
+   "catalog_display_sequence": "181",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 208,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGI_PRODUCT_SOURCE_SYSTEMS",
+   "task_code": "EGI_MANAGE_SOURCE_SYSTEMS",
+   "task_list_item": "EGI_DEFINE_PRODUCT_SOURCE_SYSTEMSEGI_MANAGE_SOURCE_SYSTEMS",
+   "task_name": "Manage Spoke Systems",
+   "catalog_display_sequence": "182",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 209,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGI_PRODUCT_BATCH_IMPORT",
+   "task_code": "HZ_MANAGE_TRADING_COMMUNITY_SOURCE_SYSTEMS",
+   "task_list_item": "ORA_EGP_DEFINE_SOURCE_SYSTEMS_FOR_PRODUCTSHZ_MANAGE_TRADING_COMMUNITY_SOURCE_SYSTEMS",
+   "task_name": "Manage Trading Community Source Systems",
+   "catalog_display_sequence": "195",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 210,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGI_PRODUCT_BATCH_IMPORT",
+   "task_code": "HZ_MANAGE_SOURCE_SYSTEM_ENTITIES",
+   "task_list_item": "ORA_EGP_DEFINE_SOURCE_SYSTEMS_FOR_PRODUCTSHZ_MANAGE_SOURCE_SYSTEM_ENTITIES",
+   "task_name": "Manage Source System Entities",
+   "catalog_display_sequence": "196",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 211,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGI_PRODUCT_BATCH_IMPORT",
+   "task_code": "HZ_MANAGE_SOURCE_SYSTEM_LOOKUPS",
+   "task_list_item": "ORA_EGP_DEFINE_SOURCE_SYSTEMS_FOR_PRODUCTSHZ_MANAGE_SOURCE_SYSTEM_LOOKUPS",
+   "task_name": "Manage Source System Lookups",
+   "catalog_display_sequence": "197",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 212,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGI_PRODUCT_BATCH_IMPORT",
+   "task_code": "HZ_MANAGE_SOURCE_SYSTEM_DESCRIPTIVE_FLEXFIELDS",
+   "task_list_item": "ORA_EGP_DEFINE_SOURCE_SYSTEMS_FOR_PRODUCTSHZ_MANAGE_SOURCE_SYSTEM_DESCRIPTIVE_FLEXFIELDS",
+   "task_name": "Manage Source System Descriptive Flexfields",
+   "catalog_display_sequence": "198",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 213,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGI_PRODUCT_BATCH_IMPORT",
+   "task_code": "EGI_MANAGE_SOURCE_SYSTEMS",
+   "task_list_item": "EGI_DEFINE_PRODUCT_SOURCE_SYSTEMSEGI_MANAGE_SOURCE_SYSTEMS",
+   "task_name": "Manage Spoke Systems",
+   "catalog_display_sequence": "199",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 214,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGI_PRODUCT_BATCH_IMPORT",
+   "task_code": "ORA_EGO_ITEM_BATCH_IMPORT_FORMAT",
+   "task_list_item": "ORA_EGO_BATCH_CONFIGURATIONORA_EGO_ITEM_BATCH_IMPORT_FORMAT",
+   "task_name": "Manage Item Import Formats Configuration",
+   "catalog_display_sequence": "200",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 215,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_DATA_POOL_INTEGRATION",
+   "task_code": "ORA_EGI_MANAGE_REVIEW_CODES",
+   "task_list_item": "ORA_EGI_DEFINE_DATA_POOL_INTEGRATIONORA_EGI_MANAGE_REVIEW_CODES",
+   "task_name": "Manage Review Codes",
+   "catalog_display_sequence": "192",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 216,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_DATA_POOL_INTEGRATION",
+   "task_code": "ORA_EGI_MANAGE_CORRECTION_CODES",
+   "task_list_item": "ORA_EGI_DEFINE_DATA_POOL_INTEGRATIONORA_EGI_MANAGE_CORRECTION_CODES",
+   "task_name": "Manage Correction Codes",
+   "catalog_display_sequence": "193",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 217,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_EGP_DATA_POOL_INTEGRATION",
+   "task_code": "ORA_EGI_MANAGE_REJECTION_CODES",
+   "task_list_item": "ORA_EGI_DEFINE_DATA_POOL_INTEGRATIONORA_EGI_MANAGE_REJECTION_CODES",
+   "task_name": "Manage Rejection Codes",
+   "catalog_display_sequence": "194",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 218,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "EGI_PRODUCT_DATA_QUALITY",
+   "task_code": "EGI_MANAGE_DQ_FOR_PRODUCTS_PROFILE_OPTIONS",
+   "task_list_item": "EGI_DEFINE_DATA_QUALITY_FOR_PRODUCTSEGI_MANAGE_DQ_FOR_PRODUCTS_PROFILE_OPTIONS",
+   "task_name": "Manage Data Quality for Products Profile Options",
+   "catalog_display_sequence": "184",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 219,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "PO_SUP_PORTAL_DEPLOYED",
+   "task_code": "POZ_MANAGE_SUPPLIER_USER_ROLES",
+   "task_list_item": "POS_DEFINE_SUPPLIER_PORTAL_CONFIGURATIONPOZ_MANAGE_SUPPLIER_USER_ROLES",
+   "task_name": "Manage Supplier User Roles",
+   "catalog_display_sequence": "185",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 220,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "PO_SUP_PORTAL_DEPLOYED",
+   "task_code": "POZ_MANAGE_SUPPLIER_USER_ROLE_USAGES",
+   "task_list_item": "POS_DEFINE_SUPPLIER_PORTAL_CONFIGURATIONPOZ_MANAGE_SUPPLIER_USER_ROLE_USAGES",
+   "task_name": "Manage Supplier User Role Usages",
+   "catalog_display_sequence": "186",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 221,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "PO_SUP_PORTAL_DEPLOYED",
+   "task_code": "ORA_POZ_SPECIFY_SUP_USER_CATEGORY",
+   "task_list_item": "ORA_POS_DEFINE_SUPPLIER_PORTAL_CONFIGURATION_ORA_POZ_SPECIFY_SUP_USER_CATEGORY",
+   "task_name": "Specify User Category for New Supplier Users",
+   "catalog_display_sequence": "187",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 222,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "PO_SUP_PORTAL_DEPLOYED",
+   "task_code": "POZ_SPECIFY_SUPPLIER_NEWS_CONTENT",
+   "task_list_item": "POS_DEFINE_SUPPLIER_PORTAL_CONFIGURATIONPOZ_SPECIFY_SUPPLIER_NEWS_CONTENT",
+   "task_name": "Specify Supplier News Content",
+   "catalog_display_sequence": "188",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 223,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "PO_SUP_PORTAL_DEPLOYED",
+   "task_code": "ORA_POZ_MANAGE_SUPPLIER_PORTAL_MESSAGES",
+   "task_list_item": "POS_DEFINE_SUPPLIER_PORTAL_CONFIGURATIONORA_POZ_MANAGE_SUPPLIER_PORTAL_MESSAGES",
+   "task_name": "Manage Supplier Portal Messages",
+   "catalog_display_sequence": "189",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 224,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "PO_SUP_PORTAL_DEPLOYED",
+   "task_code": "ORA_POZ_CONFIGURE_SUPPLIER_NOTIFICATIONS_FOR_PROFILE_MGMT",
+   "task_list_item": "POS_DEFINE_SUPPLIER_PORTAL_CONFIGURATIONORA_POZ_CONFIGURE_SUPPLIER_NOTIFICATIONS_FOR_PROFILE_MGMT",
+   "task_name": "Configure Supplier Notifications",
+   "catalog_display_sequence": "190",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 225,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACA_PROD_DEV",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_DEVELOPMENT_LOOKUPS",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_DEVELOPMENTORA_ACA_MANAGE_PRODUCT_DEVELOPMENT_LOOKUPS",
+   "task_name": "Manage Product Development Lookups",
+   "catalog_display_sequence": "245",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 226,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACA_PROD_DEV",
+   "task_code": "EGO_MANAGE_STRUCTURE_COMPONENT_ATTRIBUTES",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_DEVELOPMENTEGO_MANAGE_STRUCTURE_COMPONENT_ATTRIBUTES",
+   "task_name": "Manage Structure Component Descriptive Flexfields",
+   "catalog_display_sequence": "246",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 227,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACN_PROD_RQMNTS_IDEA",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_IDEA_CLASSES",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_IDEA_CLASSES",
+   "task_name": "Manage Product Idea Classes",
+   "catalog_display_sequence": "231",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 228,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACN_PROD_RQMNTS_IDEA",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_IDEA_STATUSES",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_IDEA_STATUSES",
+   "task_name": "Manage Product Idea Statuses",
+   "catalog_display_sequence": "232",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 229,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACN_PROD_RQMNTS_IDEA",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_REQUIREMENT_CLASSES",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_REQUIREMENT_CLASSES",
+   "task_name": "Manage Product Requirement Classes",
+   "catalog_display_sequence": "233",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 230,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACN_PROD_RQMNTS_IDEA",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_REQUIREMENT_STATUSES",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_REQUIREMENT_STATUSES",
+   "task_name": "Manage Product Requirement Statuses",
+   "catalog_display_sequence": "234",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 231,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACN_PROD_RQMNTS_IDEA",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_REQUIREMENTS_AND_IDEATION_LOOKUPS",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_REQUIREMENTS_AND_IDEATION_LOOKUPS",
+   "task_name": "Manage Product Requirements and Ideation Lookups",
+   "catalog_display_sequence": "235",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 232,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACN_PROD_RQMNTS_IDEA",
+   "task_code": "ORA_ACA_REGISTER_AGILE_PLM",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_REGISTER_AGILE_PLM",
+   "task_name": "Register Agile PLM",
+   "catalog_display_sequence": "241",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 233,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACN_PROD_RQMNTS_IDEA",
+   "task_code": "ORA_ACA_MANAGE_TARGET_SYSTEM",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_TARGET_SYSTEM",
+   "task_name": "Manage Target System",
+   "catalog_display_sequence": "242",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 234,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACN_PROD_RQMNTS_IDEA",
+   "task_code": "ORA_ACA_REGISTER_AGILE_EDM_SYSTEM",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_REGISTER_AGILE_EDM_SYSTEM",
+   "task_name": "Register Agile EDM System",
+   "catalog_display_sequence": "243",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 235,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACN_PROD_RQMNTS_IDEA",
+   "task_code": "ORA_ACA_REGISTER_AGILE_EDM_FILESERVER",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_REGISTER_AGILE_EDM_FILESERVER",
+   "task_name": "Register Agile EDM File Server",
+   "catalog_display_sequence": "244",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 236,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACD_CONCEPT_DESIGN_MGMT",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_CONCEPT_CLASSES",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_CONCEPT_CLASSES",
+   "task_name": "Manage Product Concept Classes",
+   "catalog_display_sequence": "226",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 237,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACD_CONCEPT_DESIGN_MGMT",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_CONCEPT_COMPONENT_CLASSES",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_CONCEPT_COMPONENT_CLASSES",
+   "task_name": "Manage Product Concept Component Classes",
+   "catalog_display_sequence": "227",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 238,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACD_CONCEPT_DESIGN_MGMT",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_CONCEPT_STATUSES",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_CONCEPT_STATUSES",
+   "task_name": "Manage Product Concept Statuses",
+   "catalog_display_sequence": "228",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 239,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACD_CONCEPT_DESIGN_MGMT",
+   "task_code": "ORA_ACA_MANAGE_PROPOSAL_STATUSES",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PROPOSAL_STATUSES",
+   "task_name": "Manage Proposal Statuses",
+   "catalog_display_sequence": "229",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 240,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACD_CONCEPT_DESIGN_MGMT",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_CONCEPT_LOOKUPS",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_CONCEPT_LOOKUPS",
+   "task_name": "Manage Product Concept Lookups",
+   "catalog_display_sequence": "230",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 241,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACD_CONCEPT_DESIGN_MGMT",
+   "task_code": "ORA_ACA_REGISTER_AGILE_PLM",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_REGISTER_AGILE_PLM",
+   "task_name": "Register Agile PLM",
+   "catalog_display_sequence": "241",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 242,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACD_CONCEPT_DESIGN_MGMT",
+   "task_code": "ORA_ACA_MANAGE_TARGET_SYSTEM",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_TARGET_SYSTEM",
+   "task_name": "Manage Target System",
+   "catalog_display_sequence": "242",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 243,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACD_CONCEPT_DESIGN_MGMT",
+   "task_code": "ORA_ACA_REGISTER_AGILE_EDM_SYSTEM",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_REGISTER_AGILE_EDM_SYSTEM",
+   "task_name": "Register Agile EDM System",
+   "catalog_display_sequence": "243",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 244,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACD_CONCEPT_DESIGN_MGMT",
+   "task_code": "ORA_ACA_REGISTER_AGILE_EDM_FILESERVER",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_REGISTER_AGILE_EDM_FILESERVER",
+   "task_name": "Register Agile EDM File Server",
+   "catalog_display_sequence": "244",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 245,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACE_PRODUCT_PORTFOLIO",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_PORTFOLIO_CLASSES",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_PORTFOLIO_CLASSES",
+   "task_name": "Manage Product Portfolio Classes",
+   "catalog_display_sequence": "236",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 246,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACE_PRODUCT_PORTFOLIO",
+   "task_code": "ORA_ACA_MANAGE_PORTFOLIO_STATUSES",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PORTFOLIO_STATUSES",
+   "task_name": "Manage Portfolio Statuses",
+   "catalog_display_sequence": "237",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 247,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACE_PRODUCT_PORTFOLIO",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_PORTFOLIO_PLANNING_PERIODS",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_PORTFOLIO_PLANNING_PERIODS",
+   "task_name": "Manage Product Portfolio Planning Periods",
+   "catalog_display_sequence": "238",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 248,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACE_PRODUCT_PORTFOLIO",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_PORTFOLIO_METRICS",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_PORTFOLIO_METRICS",
+   "task_name": "Manage Product Portfolio Metrics",
+   "catalog_display_sequence": "239",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 249,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACE_PRODUCT_PORTFOLIO",
+   "task_code": "ORA_ACA_MANAGE_PRODUCT_PORTFOLIO_LOOKUPS",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_PRODUCT_PORTFOLIO_LOOKUPS",
+   "task_name": "Manage Product Portfolio Lookups",
+   "catalog_display_sequence": "240",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 250,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACE_PRODUCT_PORTFOLIO",
+   "task_code": "ORA_ACA_REGISTER_AGILE_PLM",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_REGISTER_AGILE_PLM",
+   "task_name": "Register Agile PLM",
+   "catalog_display_sequence": "241",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 251,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACE_PRODUCT_PORTFOLIO",
+   "task_code": "ORA_ACA_MANAGE_TARGET_SYSTEM",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_MANAGE_TARGET_SYSTEM",
+   "task_name": "Manage Target System",
+   "catalog_display_sequence": "242",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 252,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACE_PRODUCT_PORTFOLIO",
+   "task_code": "ORA_ACA_REGISTER_AGILE_EDM_SYSTEM",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_REGISTER_AGILE_EDM_SYSTEM",
+   "task_name": "Register Agile EDM System",
+   "catalog_display_sequence": "243",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 253,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ACE_PRODUCT_PORTFOLIO",
+   "task_code": "ORA_ACA_REGISTER_AGILE_EDM_FILESERVER",
+   "task_list_item": "ORA_ACA_DEFINE_PRODUCT_INNOVATIONORA_ACA_REGISTER_AGILE_EDM_FILESERVER",
+   "task_name": "Register Agile EDM File Server",
+   "catalog_display_sequence": "244",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 254,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ENQ_QUALITY_ISSUE_ACTION",
+   "task_code": "ORA_PLM_WORKFLOW_TEMPLATES",
+   "task_list_item": "300100021902835",
+   "task_name": "Manage Workflow Templates for Product Lifecycle Management",
+   "catalog_display_sequence": "248",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 255,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ENQ_QUALITY_ISSUE_ACTION",
+   "task_code": "ORA_PLM_WORKFLOW_STATUSES",
+   "task_list_item": "300100021902836",
+   "task_name": "Manage Workflow Statuses for Product Lifecycle Management",
+   "catalog_display_sequence": "249",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 256,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ENQ_QUALITY_ISSUE_ACTION",
+   "task_code": "ORA_ENQ_MANAGE_QUALITY_ISSUE_ACTION_LOOKUPS",
+   "task_list_item": "ORA_ENQ_DEFINE_QUALITY_ISSUES_ACTIONSORA_ENQ_MANAGE_QUALITY_ISSUE_ACTION_LOOKUPS",
+   "task_name": "Manage Quality Issue and Action Lookups",
+   "catalog_display_sequence": "250",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 257,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ENQ_QUALITY_ISSUE_ACTION",
+   "task_code": "ORA_ENQ_MANAGE_QUALITY_ISSUE_TYPES",
+   "task_list_item": "ORA_ENQ_DEFINE_QUALITY_ISSUES_ACTIONS_ORA_ENQ_MANAGE_QUALITY_ISSUE_TYPES",
+   "task_name": "Manage Quality Issue Types",
+   "catalog_display_sequence": "251",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 258,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_ENQ_QUALITY_ISSUE_ACTION",
+   "task_code": "ORA_ENQ_MANAGE_QUALITY_ACTION_TYPES",
+   "task_list_item": "ORA_ENQ_DEFINE_QUALITY_ISSUES_ACTIONS_ORA_ENQ_MANAGE_QUALITY_ACTION_TYPES",
+   "task_name": "Manage Quality Action Types",
+   "catalog_display_sequence": "252",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 259,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_SUS_SUSTAINABILITY",
+   "task_code": "ORA_MANAGE_SUSTAINABILITY_LEDGER",
+   "task_list_item": "ORA_SUS_DEFINE_SUSTAINABILITY_CONFIGURATION_ORA_MANAGE_SUSTAINABILITY_LEDGER",
+   "task_name": "Manage Sustainability Ledgers",
+   "catalog_display_sequence": "253",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 260,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_SUS_SUSTAINABILITY",
+   "task_code": "ORA_SUS_MANAGE_SUSTAINABILITY_LOOKUPS",
+   "task_list_item": "ORA_SUS_DEFINE_SUSTAINABILITY_CONFIGURATION_ORA_SUS_MANAGE_SUSTAINABILITY_LOOKUPS",
+   "task_name": "Manage Sustainability Lookups",
+   "catalog_display_sequence": "254",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 261,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_SUS_SUSTAINABILITY",
+   "task_code": "ORA_SUS_MANAGE_SUSTAINABILITY_VALUE_SETS",
+   "task_list_item": "ORA_SUS_DEFINE_SUSTAINABILITY_CONFIGURATION_ORA_SUS_MANAGE_SUSTAINABILITY_VALUE_SETS",
+   "task_name": "Manage Sustainability Value Sets",
+   "catalog_display_sequence": "255",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 262,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_SUS_SUSTAINABILITY",
+   "task_code": "ORA_SUS_MANAGE_SUSTAINABILITY_DESCRIPTIVE_FLEXFIELDS",
+   "task_list_item": "ORA_SUS_DEFINE_SUSTAINABILITY_CONFIGURATION_ORA_SUS_MANAGE_SUSTAINABILITY_DESCRIPTIVE_FLEXFIELDS",
+   "task_name": "Manage Sustainability Descriptive Flexfields",
+   "catalog_display_sequence": "256",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 263,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_SUS_SUSTAINABILITY",
+   "task_code": "ORA_MANAGE_ACTIVITY_TYPES",
+   "task_list_item": "ORA_SUS_DEFINE_SUSTAINABILITY_CONFIGURATION_ORA_MANAGE_ACTIVITY_TYPES",
+   "task_name": "Manage Activity Types",
+   "catalog_display_sequence": "257",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 264,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_SUS_SUSTAINABILITY",
+   "task_code": "ORA_MANAGE_SUSTAINABILITY_PROFILE_OPTIONS",
+   "task_list_item": "ORA_SUS_DEFINE_SUSTAINABILITY_CONFIGURATION_ORA_MANAGE_SUSTAINABILITY_PROFILE_OPTIONS",
+   "task_name": "Manage Sustainability Profile Options",
+   "catalog_display_sequence": "258",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 265,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "ORA_SUS_SUSTAINABILITY",
+   "task_code": "ORA_MANAGE_GLOBAL_WARMING_POTENTIALS",
+   "task_list_item": "ORA_SUS_DEFINE_SUSTAINABILITY_CONFIGURATION_ORA_MANAGE_GLOBAL_WARMING_POTENTIALS",
+   "task_name": "Manage Global Warming Potentials",
+   "catalog_display_sequence": "259",
+   "sequence_source": "release"
+  },
+  {
+   "sequence": 266,
+   "offering": "PIM_PROD_MNG",
+   "functional_area": "CUSTOM_INDEX_MANAGEMENT",
+   "task_code": "CUSTOM_EGP_MANAGE_PM_INDEXES",
+   "task_list_item": "CUSTOM_EGP_MANAGE_PM_INDEXES",
+   "task_name": "Manage Product Management Indexes",
+   "catalog_display_sequence": null,
+   "sequence_source": "functional_area_tail"
+  }
+ ]
+}

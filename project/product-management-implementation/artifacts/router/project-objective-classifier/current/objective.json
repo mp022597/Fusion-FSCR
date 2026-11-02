@@ -1,0 +1,14 @@
+{
+  "$schema": "../../../../../../schemas/implementation-objective.schema.json",
+  "objective": "Product Management Implementation",
+  "customer": "HDS",
+  "pillars": [
+    "SCM"
+  ],
+  "offerings": [
+    "Product Management"
+  ],
+  "countries": [],
+  "industry": "TBD",
+  "implementation_phase": "discovery"
+}
