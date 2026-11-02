@@ -1,0 +1,3 @@
+change_type,applies_to,approver_role,approval_order,reason_codes
+ECO,Items;BOM,Product Engineer;Quality Engineer,1;2,Cost Reduction;Design Fix
+ECN,Items,Product Data Administrator,1,Information Update

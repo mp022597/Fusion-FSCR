@@ -1,0 +1,4 @@
+item_number,description,item_class,uom,status,lifecycle_phase,revision,org_code,template
+FG-000001,Industrial Pump 5HP,Finished Good,EA,Active,Production,A,HDM,FG_TEMPLATE
+CP-000101,Pump Impeller,Component,EA,Active,Production,A,HDM,CP_TEMPLATE
+RM-000201,Steel Sheet 2mm,Raw Material,KG,Active,Production,A,HDM,RM_TEMPLATE

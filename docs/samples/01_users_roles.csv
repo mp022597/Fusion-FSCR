@@ -1,0 +1,4 @@
+user_name,first_name,last_name,email,job_role,access_area
+SAMPLE_PLM_ADMIN,Asha,Rao,asha.rao@example.com,Product Data Administrator,All PIM
+SAMPLE_ENG1,Dev,Mehta,dev.mehta@example.com,Product Engineer,Items;BOM
+SAMPLE_QA1,Neha,Shah,neha.shah@example.com,Quality Engineer,Change Orders;Deviations

@@ -1,0 +1,4 @@
+item_class,parent_class,item_type,numbering_rule
+Finished Good,Root Item Class,Finished,FG-######
+Component,Root Item Class,Purchased,CP-######
+Raw Material,Root Item Class,Purchased,RM-######

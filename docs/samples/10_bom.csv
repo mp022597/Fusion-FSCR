@@ -1,0 +1,3 @@
+parent_item,component_item,quantity,uom,find_number,effective_from,substitute_item,structure_type
+FG-000001,CP-000101,1,EA,10,2026-11-01,,Primary
+FG-000001,RM-000201,2.5,KG,20,2026-11-01,,Primary

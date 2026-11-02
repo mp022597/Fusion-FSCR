@@ -1,0 +1,4 @@
+attribute_name,applies_to,data_type,required,allowed_values,validation
+Motor Power (HP),Item Class: Finished Good,Number,Y,,Range 0.5-100
+Material Grade,Item Class: Component,Text,N,SS304;SS316;MS,List of values
+Hazardous,Item,Yes/No,Y,Yes;No,

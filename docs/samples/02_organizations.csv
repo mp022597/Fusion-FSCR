@@ -1,0 +1,4 @@
+org_code,org_name,org_type,location,business_unit,legal_entity
+HDM,HDS Item Master,Master,Pune,HDS India BU,HDS India Ltd
+HD1,HDS Plant 1,Child,Pune,HDS India BU,HDS India Ltd
+HD2,HDS Plant 2,Child,Chennai,HDS India BU,HDS India Ltd

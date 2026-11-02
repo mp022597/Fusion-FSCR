@@ -1,0 +1,4 @@
+document_type,attached_to,owner_role,approval_needed,file_name
+Specification,Item,Product Engineer,Y,FG-000001_spec.pdf
+Drawing,BOM,Product Engineer,Y,FG-000001_drawing.pdf
+Test Report,Change Order,Quality Engineer,N,TR-001.pdf

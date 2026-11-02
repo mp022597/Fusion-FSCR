@@ -1,0 +1,5 @@
+catalog_name,level,category_code,category_name,parent_category_code
+HDS Product Catalog,1,PUMPS,Pumps,
+HDS Product Catalog,2,PUMPS.IND,Industrial Pumps,PUMPS
+HDS Product Catalog,1,PARTS,Parts,
+HDS Product Catalog,2,PARTS.ROT,Rotating Parts,PARTS

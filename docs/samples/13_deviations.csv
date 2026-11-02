@@ -1,0 +1,3 @@
+deviation_type,scope,approver_role,linked_to,duration_days
+Production Deviation,Lot,Quality Engineer,Item,30
+Supplier Deviation,Quantity,Quality Engineer;Product Engineer,BOM,60
